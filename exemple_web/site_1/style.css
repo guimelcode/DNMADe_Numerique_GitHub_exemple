@@ -3,17 +3,31 @@ html {}
 body {
   font-size: 16px;
   line-height: 1.46em;
-
   margin: 0;
 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+
+
 }
+
+body > div {
+
+}
+
 header {
   display: block;
   border-radius: 1em;
 
   background-color: blue;
-  padding: 10em;
+  padding: 5em;
   text-align: center;
+
+  grid-column: 1/4;
+  grid-row: 1;
 }
 
 h1 {
@@ -28,6 +42,6 @@ h1 {
 }
 
 #chat {
-
+  background-color: grey;
 
 }
