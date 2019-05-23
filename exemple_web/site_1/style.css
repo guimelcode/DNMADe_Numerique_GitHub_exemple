@@ -10,7 +10,7 @@ body {
 header {
   display: block;
   border-radius: 1em;
-  
+
   background-color: blue;
   padding: 10em;
   text-align: center;
@@ -22,8 +22,9 @@ h1 {
 
 #carte {
   display: block;
-  height: 20em;
-  background-image: url("./img/background.png");
+  width: 100%;
+
+
 }
 
 #chat {
