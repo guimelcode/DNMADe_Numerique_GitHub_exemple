@@ -1,0 +1,19 @@
+* {}
+html {}
+body {
+  font-size: 16px;
+  line-height: 1.46em;
+
+  margin: 0;
+
+}
+header {
+
+  background-color: blue;
+  padding: 10em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
